@@ -1,0 +1,3 @@
+/home/zzn16/core_db/build/CMakeFiles/mydb.dir
+/home/zzn16/core_db/build/CMakeFiles/edit_cache.dir
+/home/zzn16/core_db/build/CMakeFiles/rebuild_cache.dir
