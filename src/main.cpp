@@ -8,7 +8,14 @@ int main() {
     std::string sql;
     while (true) {
         std::cout << "> ";
-        std::getline(std::cin, sql);
+        if (!std::getline(std::cin, sql)) {
+            // 检查到文件结尾，正常退出
+            break;
+        }
+        // 去除前后空格
+        sql.erase(0, sql.find_first_not_of(" \t\r\n"));
+        sql.erase(sql.find_last_not_of(" \t\r\n") + 1);
+        if (sql.empty()) continue; // 跳过空行
         if (sql == "exit") break;
         // 解析SQL
         auto stmt = SQLParser::parse(sql);

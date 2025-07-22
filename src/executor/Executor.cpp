@@ -10,6 +10,8 @@
 #include <memory>
 #include <mutex> // Added for mutex
 #include <algorithm>
+#include <cctype>
+#include "../utils/StringUtil.h"
 
 bool Executor::inTransaction = false;
 std::map<std::string, std::vector<Row>> Executor::tableSnapshots;
@@ -124,7 +126,9 @@ void Executor::execute(std::shared_ptr<SQLStatement> stmt) {
                 auto it = std::find(cols.begin(), cols.end(), cond.first);
                 if (it == cols.end()) { match = false; break; }
                 size_t idx = std::distance(cols.begin(), it);
-                if (idx >= vals.size() || vals[idx] != cond.second) { match = false; break; }
+                // 调试输出
+                std::cout << "[DEBUG] 比较列: " << cond.first << " 目标值: [" << cond.second << "] 实际值: [" << (idx < vals.size() ? vals[idx] : "越界") << "]" << std::endl;
+                if (idx >= vals.size() || StringUtil::trim(vals[idx]) != StringUtil::trim(cond.second)) { match = false; break; }
             }
             if (match) filtered.push_back(row);
         }
@@ -170,7 +174,9 @@ void Executor::execute(std::shared_ptr<SQLStatement> stmt) {
         for (auto& row : allRows) {
             auto vals = row.getValues();
             if (whereIdx != std::string::npos) {
-                if (whereIdx >= vals.size() || vals[whereIdx] != updateStmt->whereVal) continue;
+                // 调试输出
+                std::cout << "[DEBUG] UPDATE 比较列: " << updateStmt->whereCol << " 目标值: [" << updateStmt->whereVal << "] 实际值: [" << (whereIdx < vals.size() ? vals[whereIdx] : "越界") << "]" << std::endl;
+                if (whereIdx >= vals.size() || StringUtil::trim(vals[whereIdx]) != StringUtil::trim(updateStmt->whereVal)) continue;
             }
             for (size_t i = 0; i < updateStmt->columns.size(); ++i) {
                 auto it = std::find(cols.begin(), cols.end(), updateStmt->columns[i]);

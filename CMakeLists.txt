@@ -5,6 +5,6 @@ set(CMAKE_CXX_STANDARD 17)
 
 include_directories(src)
 
-file(GLOB_RECURSE SOURCES "src/*.cpp")
+file(GLOB_RECURSE SOURCES "src/*.cpp" "src/optimizer/*.cpp")
 
 add_executable(mydb ${SOURCES}) 

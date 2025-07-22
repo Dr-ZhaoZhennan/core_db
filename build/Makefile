@@ -201,6 +201,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydb.dir/build.make CMakeFiles/mydb.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/optimizer/Optimizer.o: src/optimizer/Optimizer.cpp.o
+.PHONY : src/optimizer/Optimizer.o
+
+# target to build an object file
+src/optimizer/Optimizer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydb.dir/build.make CMakeFiles/mydb.dir/src/optimizer/Optimizer.cpp.o
+.PHONY : src/optimizer/Optimizer.cpp.o
+
+src/optimizer/Optimizer.i: src/optimizer/Optimizer.cpp.i
+.PHONY : src/optimizer/Optimizer.i
+
+# target to preprocess a source file
+src/optimizer/Optimizer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydb.dir/build.make CMakeFiles/mydb.dir/src/optimizer/Optimizer.cpp.i
+.PHONY : src/optimizer/Optimizer.cpp.i
+
+src/optimizer/Optimizer.s: src/optimizer/Optimizer.cpp.s
+.PHONY : src/optimizer/Optimizer.s
+
+# target to generate assembly for a file
+src/optimizer/Optimizer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydb.dir/build.make CMakeFiles/mydb.dir/src/optimizer/Optimizer.cpp.s
+.PHONY : src/optimizer/Optimizer.cpp.s
+
+src/optimizer/Plan.o: src/optimizer/Plan.cpp.o
+.PHONY : src/optimizer/Plan.o
+
+# target to build an object file
+src/optimizer/Plan.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydb.dir/build.make CMakeFiles/mydb.dir/src/optimizer/Plan.cpp.o
+.PHONY : src/optimizer/Plan.cpp.o
+
+src/optimizer/Plan.i: src/optimizer/Plan.cpp.i
+.PHONY : src/optimizer/Plan.i
+
+# target to preprocess a source file
+src/optimizer/Plan.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydb.dir/build.make CMakeFiles/mydb.dir/src/optimizer/Plan.cpp.i
+.PHONY : src/optimizer/Plan.cpp.i
+
+src/optimizer/Plan.s: src/optimizer/Plan.cpp.s
+.PHONY : src/optimizer/Plan.s
+
+# target to generate assembly for a file
+src/optimizer/Plan.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydb.dir/build.make CMakeFiles/mydb.dir/src/optimizer/Plan.cpp.s
+.PHONY : src/optimizer/Plan.cpp.s
+
 src/parser/SQLParser.o: src/parser/SQLParser.cpp.o
 .PHONY : src/parser/SQLParser.o
 
@@ -339,6 +387,12 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/optimizer/Optimizer.o"
+	@echo "... src/optimizer/Optimizer.i"
+	@echo "... src/optimizer/Optimizer.s"
+	@echo "... src/optimizer/Plan.o"
+	@echo "... src/optimizer/Plan.i"
+	@echo "... src/optimizer/Plan.s"
 	@echo "... src/parser/SQLParser.o"
 	@echo "... src/parser/SQLParser.i"
 	@echo "... src/parser/SQLParser.s"

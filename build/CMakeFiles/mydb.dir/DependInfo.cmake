@@ -11,6 +11,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/zzn16/core_db/src/catalog/CatalogManager.cpp" "CMakeFiles/mydb.dir/src/catalog/CatalogManager.cpp.o" "gcc" "CMakeFiles/mydb.dir/src/catalog/CatalogManager.cpp.o.d"
   "/home/zzn16/core_db/src/executor/Executor.cpp" "CMakeFiles/mydb.dir/src/executor/Executor.cpp.o" "gcc" "CMakeFiles/mydb.dir/src/executor/Executor.cpp.o.d"
   "/home/zzn16/core_db/src/main.cpp" "CMakeFiles/mydb.dir/src/main.cpp.o" "gcc" "CMakeFiles/mydb.dir/src/main.cpp.o.d"
+  "/home/zzn16/core_db/src/optimizer/Optimizer.cpp" "CMakeFiles/mydb.dir/src/optimizer/Optimizer.cpp.o" "gcc" "CMakeFiles/mydb.dir/src/optimizer/Optimizer.cpp.o.d"
+  "/home/zzn16/core_db/src/optimizer/Plan.cpp" "CMakeFiles/mydb.dir/src/optimizer/Plan.cpp.o" "gcc" "CMakeFiles/mydb.dir/src/optimizer/Plan.cpp.o.d"
   "/home/zzn16/core_db/src/parser/SQLParser.cpp" "CMakeFiles/mydb.dir/src/parser/SQLParser.cpp.o" "gcc" "CMakeFiles/mydb.dir/src/parser/SQLParser.cpp.o.d"
   "/home/zzn16/core_db/src/parser/SQLTokenizer.cpp" "CMakeFiles/mydb.dir/src/parser/SQLTokenizer.cpp.o" "gcc" "CMakeFiles/mydb.dir/src/parser/SQLTokenizer.cpp.o.d"
   "/home/zzn16/core_db/src/storage/Row.cpp" "CMakeFiles/mydb.dir/src/storage/Row.cpp.o" "gcc" "CMakeFiles/mydb.dir/src/storage/Row.cpp.o.d"

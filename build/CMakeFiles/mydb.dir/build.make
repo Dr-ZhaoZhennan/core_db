@@ -111,10 +111,38 @@ CMakeFiles/mydb.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mydb.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zzn16/core_db/src/main.cpp -o CMakeFiles/mydb.dir/src/main.cpp.s
 
+CMakeFiles/mydb.dir/src/optimizer/Optimizer.cpp.o: CMakeFiles/mydb.dir/flags.make
+CMakeFiles/mydb.dir/src/optimizer/Optimizer.cpp.o: /home/zzn16/core_db/src/optimizer/Optimizer.cpp
+CMakeFiles/mydb.dir/src/optimizer/Optimizer.cpp.o: CMakeFiles/mydb.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zzn16/core_db/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mydb.dir/src/optimizer/Optimizer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mydb.dir/src/optimizer/Optimizer.cpp.o -MF CMakeFiles/mydb.dir/src/optimizer/Optimizer.cpp.o.d -o CMakeFiles/mydb.dir/src/optimizer/Optimizer.cpp.o -c /home/zzn16/core_db/src/optimizer/Optimizer.cpp
+
+CMakeFiles/mydb.dir/src/optimizer/Optimizer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mydb.dir/src/optimizer/Optimizer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zzn16/core_db/src/optimizer/Optimizer.cpp > CMakeFiles/mydb.dir/src/optimizer/Optimizer.cpp.i
+
+CMakeFiles/mydb.dir/src/optimizer/Optimizer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mydb.dir/src/optimizer/Optimizer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zzn16/core_db/src/optimizer/Optimizer.cpp -o CMakeFiles/mydb.dir/src/optimizer/Optimizer.cpp.s
+
+CMakeFiles/mydb.dir/src/optimizer/Plan.cpp.o: CMakeFiles/mydb.dir/flags.make
+CMakeFiles/mydb.dir/src/optimizer/Plan.cpp.o: /home/zzn16/core_db/src/optimizer/Plan.cpp
+CMakeFiles/mydb.dir/src/optimizer/Plan.cpp.o: CMakeFiles/mydb.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zzn16/core_db/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mydb.dir/src/optimizer/Plan.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mydb.dir/src/optimizer/Plan.cpp.o -MF CMakeFiles/mydb.dir/src/optimizer/Plan.cpp.o.d -o CMakeFiles/mydb.dir/src/optimizer/Plan.cpp.o -c /home/zzn16/core_db/src/optimizer/Plan.cpp
+
+CMakeFiles/mydb.dir/src/optimizer/Plan.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mydb.dir/src/optimizer/Plan.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zzn16/core_db/src/optimizer/Plan.cpp > CMakeFiles/mydb.dir/src/optimizer/Plan.cpp.i
+
+CMakeFiles/mydb.dir/src/optimizer/Plan.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mydb.dir/src/optimizer/Plan.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zzn16/core_db/src/optimizer/Plan.cpp -o CMakeFiles/mydb.dir/src/optimizer/Plan.cpp.s
+
 CMakeFiles/mydb.dir/src/parser/SQLParser.cpp.o: CMakeFiles/mydb.dir/flags.make
 CMakeFiles/mydb.dir/src/parser/SQLParser.cpp.o: /home/zzn16/core_db/src/parser/SQLParser.cpp
 CMakeFiles/mydb.dir/src/parser/SQLParser.cpp.o: CMakeFiles/mydb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zzn16/core_db/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mydb.dir/src/parser/SQLParser.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zzn16/core_db/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mydb.dir/src/parser/SQLParser.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mydb.dir/src/parser/SQLParser.cpp.o -MF CMakeFiles/mydb.dir/src/parser/SQLParser.cpp.o.d -o CMakeFiles/mydb.dir/src/parser/SQLParser.cpp.o -c /home/zzn16/core_db/src/parser/SQLParser.cpp
 
 CMakeFiles/mydb.dir/src/parser/SQLParser.cpp.i: cmake_force
@@ -128,7 +156,7 @@ CMakeFiles/mydb.dir/src/parser/SQLParser.cpp.s: cmake_force
 CMakeFiles/mydb.dir/src/parser/SQLTokenizer.cpp.o: CMakeFiles/mydb.dir/flags.make
 CMakeFiles/mydb.dir/src/parser/SQLTokenizer.cpp.o: /home/zzn16/core_db/src/parser/SQLTokenizer.cpp
 CMakeFiles/mydb.dir/src/parser/SQLTokenizer.cpp.o: CMakeFiles/mydb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zzn16/core_db/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mydb.dir/src/parser/SQLTokenizer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zzn16/core_db/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mydb.dir/src/parser/SQLTokenizer.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mydb.dir/src/parser/SQLTokenizer.cpp.o -MF CMakeFiles/mydb.dir/src/parser/SQLTokenizer.cpp.o.d -o CMakeFiles/mydb.dir/src/parser/SQLTokenizer.cpp.o -c /home/zzn16/core_db/src/parser/SQLTokenizer.cpp
 
 CMakeFiles/mydb.dir/src/parser/SQLTokenizer.cpp.i: cmake_force
@@ -142,7 +170,7 @@ CMakeFiles/mydb.dir/src/parser/SQLTokenizer.cpp.s: cmake_force
 CMakeFiles/mydb.dir/src/storage/Row.cpp.o: CMakeFiles/mydb.dir/flags.make
 CMakeFiles/mydb.dir/src/storage/Row.cpp.o: /home/zzn16/core_db/src/storage/Row.cpp
 CMakeFiles/mydb.dir/src/storage/Row.cpp.o: CMakeFiles/mydb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zzn16/core_db/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mydb.dir/src/storage/Row.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zzn16/core_db/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/mydb.dir/src/storage/Row.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mydb.dir/src/storage/Row.cpp.o -MF CMakeFiles/mydb.dir/src/storage/Row.cpp.o.d -o CMakeFiles/mydb.dir/src/storage/Row.cpp.o -c /home/zzn16/core_db/src/storage/Row.cpp
 
 CMakeFiles/mydb.dir/src/storage/Row.cpp.i: cmake_force
@@ -156,7 +184,7 @@ CMakeFiles/mydb.dir/src/storage/Row.cpp.s: cmake_force
 CMakeFiles/mydb.dir/src/storage/StorageManager.cpp.o: CMakeFiles/mydb.dir/flags.make
 CMakeFiles/mydb.dir/src/storage/StorageManager.cpp.o: /home/zzn16/core_db/src/storage/StorageManager.cpp
 CMakeFiles/mydb.dir/src/storage/StorageManager.cpp.o: CMakeFiles/mydb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zzn16/core_db/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mydb.dir/src/storage/StorageManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zzn16/core_db/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/mydb.dir/src/storage/StorageManager.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mydb.dir/src/storage/StorageManager.cpp.o -MF CMakeFiles/mydb.dir/src/storage/StorageManager.cpp.o.d -o CMakeFiles/mydb.dir/src/storage/StorageManager.cpp.o -c /home/zzn16/core_db/src/storage/StorageManager.cpp
 
 CMakeFiles/mydb.dir/src/storage/StorageManager.cpp.i: cmake_force
@@ -170,7 +198,7 @@ CMakeFiles/mydb.dir/src/storage/StorageManager.cpp.s: cmake_force
 CMakeFiles/mydb.dir/src/storage/Table.cpp.o: CMakeFiles/mydb.dir/flags.make
 CMakeFiles/mydb.dir/src/storage/Table.cpp.o: /home/zzn16/core_db/src/storage/Table.cpp
 CMakeFiles/mydb.dir/src/storage/Table.cpp.o: CMakeFiles/mydb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zzn16/core_db/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/mydb.dir/src/storage/Table.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zzn16/core_db/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/mydb.dir/src/storage/Table.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mydb.dir/src/storage/Table.cpp.o -MF CMakeFiles/mydb.dir/src/storage/Table.cpp.o.d -o CMakeFiles/mydb.dir/src/storage/Table.cpp.o -c /home/zzn16/core_db/src/storage/Table.cpp
 
 CMakeFiles/mydb.dir/src/storage/Table.cpp.i: cmake_force
@@ -186,6 +214,8 @@ mydb_OBJECTS = \
 "CMakeFiles/mydb.dir/src/catalog/CatalogManager.cpp.o" \
 "CMakeFiles/mydb.dir/src/executor/Executor.cpp.o" \
 "CMakeFiles/mydb.dir/src/main.cpp.o" \
+"CMakeFiles/mydb.dir/src/optimizer/Optimizer.cpp.o" \
+"CMakeFiles/mydb.dir/src/optimizer/Plan.cpp.o" \
 "CMakeFiles/mydb.dir/src/parser/SQLParser.cpp.o" \
 "CMakeFiles/mydb.dir/src/parser/SQLTokenizer.cpp.o" \
 "CMakeFiles/mydb.dir/src/storage/Row.cpp.o" \
@@ -198,6 +228,8 @@ mydb_EXTERNAL_OBJECTS =
 mydb: CMakeFiles/mydb.dir/src/catalog/CatalogManager.cpp.o
 mydb: CMakeFiles/mydb.dir/src/executor/Executor.cpp.o
 mydb: CMakeFiles/mydb.dir/src/main.cpp.o
+mydb: CMakeFiles/mydb.dir/src/optimizer/Optimizer.cpp.o
+mydb: CMakeFiles/mydb.dir/src/optimizer/Plan.cpp.o
 mydb: CMakeFiles/mydb.dir/src/parser/SQLParser.cpp.o
 mydb: CMakeFiles/mydb.dir/src/parser/SQLTokenizer.cpp.o
 mydb: CMakeFiles/mydb.dir/src/storage/Row.cpp.o
@@ -205,7 +237,7 @@ mydb: CMakeFiles/mydb.dir/src/storage/StorageManager.cpp.o
 mydb: CMakeFiles/mydb.dir/src/storage/Table.cpp.o
 mydb: CMakeFiles/mydb.dir/build.make
 mydb: CMakeFiles/mydb.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/zzn16/core_db/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable mydb"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/zzn16/core_db/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable mydb"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mydb.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
